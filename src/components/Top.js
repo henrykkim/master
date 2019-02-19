@@ -8,6 +8,7 @@ const TopBackground = styled.div`
     background-size: cover;
     background-position: center;
     position: relative;
+    margin: 0;
 `
 
 const TopContent = styled.div`
