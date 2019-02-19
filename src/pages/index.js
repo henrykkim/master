@@ -22,7 +22,7 @@ const IndexPage = () => (
           />
         </Link>
         <Card 
-        title ="Yet Tuh" 
+        title ="Piju Belly" 
         subtitle="Sanghoon Oh"
         text="Yet Tuh is one of most popular Korean restaurants in Atlanta. Why is this place special?" 
         image={require('../images/yet_tuh1.jpg')}  
