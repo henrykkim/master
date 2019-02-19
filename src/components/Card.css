@@ -1,12 +1,12 @@
 .Card {
-    width: 300px;
-    height: 225px;
+    width: 500px;
+    height: 300px;
     position: relative;
     overflow: hidden;
     border-radius: 20px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto auto 1fr;
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
@@ -27,21 +27,31 @@
     height: 110%;
     z-index: -1;
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+    
 }
 
 .Card h3 {
     color: white;
+    font-size: 40px;
+    margin: 20px 0 0 20px;
+    width: 400px;
+    align-self: start;
+}
+
+.Card h4 {
+    color: rgba(255, 255, 255, 0.9);
     font-size: 30px;
     margin: 20px 0 0 20px;
-    width: 190px;
-
+    width: 300px;
+    align-self: start;
 }
 
 .Card p {
-    color: rgba(255, 255, 255, 0.8);
-    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
     font-weight: 600;
-    font-size: 18px;
+    font-size: 24px;
     align-self: end;
     margin: 0 0 20px 20px;
+    width: 400px;
+    font-weight: 300;
 }
