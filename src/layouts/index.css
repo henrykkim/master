@@ -100,21 +100,156 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+.CardGroup {
+  margin: 50px, 40px, 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+}
+
+
+
+.restaurant {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 80px 30px 80px 30px;
+  grid-column-gap: 30px;
+}
+
+.restaurant img {
+  border-radius: 50%;
+  justify-self: end;
+}
+
+.restaurant h2 {
+  margin-top: 0;
+}
+
+.darkTheme {
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  background-color: black;
+  padding-bottom: 50px;
+}
+
+.darken {
+  color: white;
+}
+
+.quote {
+  padding: 0 150px;
+  font-style: italic;
+  margin: 50px 80px;
+}
+
+
+.centoring {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.justCenter {
+  justify-self: center;
+  width: auto;
+}
+
+.sideMargin {
+  margin-left: 100px;
+  margin-right:100px;
+  line-height: 1.5;
+}
+
+.galleryGrid {
+  display: grid;
+  margin-top: 40px;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(6, auto);
+  justify-items: stretch;
+  grid-template-areas:
+    "first first . . . ."
+    "first first second second . ."
+    ". . second second third third"
+    ". . . . third third"
+
+
+}
+
+.first-img {
+  grid-area: first;
+  width: 400px;
+  height: 300px;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden;
+}
+
+.first-img img {
+  flex-shrink:200px;
+  min-width:100%;
+  min-height:100%;
+}
+
+.second-img {
+  grid-area: second;
+  width: 400px;
+  height: 300px;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden;
+}
+
+.second-img img {
+  flex-shrink:200px;
+  min-width:100%;
+  min-height:100%;
+}
+.third-img {
+  grid-area: third;
+  width: 400px;
+  height: 300px;
+  background-color: violet;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden;
+}
+
+.third-img img {
+  flex-shrink:300px;
+  min-width:100%;
+  min-height:100%;
+}
+
+@media (max-width: 1060px) {
   .CardGroup {
-    margin: 50px, 40px, 100px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .restaurant {
+    grid-template-columns: 1fr;
     justify-items: center;
   }
-  
-  @media (max-width: 1060px) {
-    .CardGroup {
-      grid-template-columns: repeat(1, 1fr);
-    }
+  .restaurant img {
+    justify-self: center;
   }
-  
-  @media (max-width: 720px) {
-    .CardGroup {
-      grid-template-columns: repeat(1, 1fr);
-    }
+}
+
+@media (max-width: 720px) {
+  .CardGroup {
+    grid-template-columns: repeat(1, 1fr);
   }
+  .restaurant {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .restaurant img {
+    justify-self: center;
+  }
+}

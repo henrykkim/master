@@ -13,7 +13,7 @@ const IndexPage = () => (
     <div className="Cards">
       <h2>Discover their stories and food</h2>
       <div className="CardGroup">
-        <Link to="/page-2/">
+        <Link to="/yet-tuh/">
           <Card 
           title ="Yet Tuh" 
           subtitle="Sanghoon Oh"
