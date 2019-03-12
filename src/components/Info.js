@@ -18,7 +18,7 @@ const Address = styled.div`
 const Phone = styled.div`
 
 `
-const Time = styled.p`
+const Time = styled.div`
 `
 
 const Info = props => (
