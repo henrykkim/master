@@ -13,6 +13,10 @@ const ContentDetail = styled.div`
 const ImgSet = styled.div`
   margin-top: 60px;
   margin-bottom: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 `
 
 const Heading = styled.h2`
@@ -28,7 +32,9 @@ const SecondPage = () => (
       text="Yet Tuh is one of the most popular Korean restaurants in Atlanta that got much media coverage, yet this place is very hard to find if you are a first-timer. I met with the owner to hear how he chose to move to Atlanta and made the restaurant popular"
       image={require('../images/yet_tuh1.jpg')}  
     />
-    <img src={require('../images/yettuh/1.jpg')} width="100%" />
+    <ImgSet>
+    <img src={require('../images/yettuh/1.jpg')}  />
+    </ImgSet>
     <ContentDetail>
       <p className="marginn">Yet Tuh is probably one of the most popular Korean restaurants in Atlanta for Americans. Despite of its popularity, when I first attempted to visit, the place was so hidden that I got lost. When found, I could see the restaurant was not shy about its exposure through media by showing news articles about the restaurant at the entrance. Seeing this made me wonder; how is this well-hidden restaurant so popular? I wanted to meet the owner and hear his story about him and the restaurant.</p>
     </ContentDetail> 
