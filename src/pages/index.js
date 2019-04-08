@@ -21,12 +21,15 @@ const IndexPage = () => (
           image={require('../images/yet_tuh1.jpg')}          
           />
         </Link>
-        <Card 
-        title ="Piju Belly" 
-        subtitle="Sanghoon Oh"
-        text="Yet Tuh is one of most popular Korean restaurants in Atlanta. Why is this place special?" 
-        image={require('../images/yet_tuh1.jpg')}  
-        />
+        <Link  to="/pijubelly/">
+          <Card 
+          title ="Piju Belly" 
+          subtitle="Lenny Shao"
+          text="Yet Tuh is one of most popular Korean restaurants in Atlanta. Why is this place special?" 
+          image={require('../images/piju/1.jpg')}  
+          />
+        </Link>
+        
       </div>
     </div>
   </div>
