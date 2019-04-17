@@ -29,6 +29,14 @@ const IndexPage = () => (
           image={require('../images/piju/1.jpg')}  
           />
         </Link>
+        <Link  to="/d92/">
+          <Card 
+          title ="D92 Korean BBQ" 
+          subtitle="Justin Lee"
+          text="Yet Tuh is one of most popular Korean restaurants in Atlanta. Why is this place special?" 
+          image={require('../images/d92/1.jpg')}  
+          />
+        </Link>
         
       </div>
     </div>
