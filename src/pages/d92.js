@@ -60,6 +60,21 @@ const D92 = () => (
       <ContentDetail>
         <p>Because of the location, most customers are American. He occasionally see a few Korean students. Furthermore, he doesn’t change much on the recipe. “Both Korean and American customers are fixed at the taste.” While offering different sweetness for different meat, he also offers wide spectrum of sauces.</p>
       </ContentDetail>
+      <div className="centoring">
+        <img src={require('../images/d92/6.jpg')} width="60%"/>
+      </div>
+      <ContentDetail>
+        <p>For food, he recommended the all-you-can-eat option. "It's a perfect way to learn different meat parts and immerse yourself into Korean BBQ." There are two options: $25 and $30 with additional beef brisket. "It's really up to you on what you want to try," he added. If you aren't sure which meat you most enjoy, trying every single meat from the menu would be a great start.</p>
+      </ContentDetail>
+      <div className="restaurant">
+            <img src={require('../images/d92/th.jpg')} />
+            <Info 
+                name="D92 Korean BBQ"
+                address="225 E Trinity Pl, Decatur, GA 30030"
+                phone="(678) 973-2454"
+                time="Wednesday 11:30AM–11PM"
+            />
+        </div>
     </div>
 )
 
