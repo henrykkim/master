@@ -73,7 +73,7 @@ const Jokga = () => (
           </div>
         <div className="FooterMenuContainer">
         <h1 className="FooterMenuTitle">Korean Food Menu</h1>
-        <a href="/jokga">
+        <a href="/jokga.js">
         <img src={require('../images/jokga/3.jpg')} width="100%" className="FooterMenuImg" /></a>
         <div className="FooterFoodName">
         <a href="/jokga">
