@@ -1,0 +1,84 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-d-92-js": [
+      "component---src-pages-d-92-js-1277aadc4f79f78286cc.js",
+      "component---src-pages-d-92-js-1277aadc4f79f78286cc.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-17656180bd02f54a04dd.js",
+      "component---src-pages-index-js-17656180bd02f54a04dd.js.map"
+    ],
+    "path---d-92": [
+      "path---d-92-a0e39f21c11f6a62c5ab.js",
+      "path---d-92-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-yet-tuh-js": [
+      "component---src-pages-yet-tuh-js-632da4cbaf528c9bf236.js",
+      "component---src-pages-yet-tuh-js-632da4cbaf528c9bf236.js.map"
+    ],
+    "path---": [
+      "path----db85cebfbee846038aa7.js",
+      "path----db85cebfbee846038aa7.js.map"
+    ],
+    "component---src-pages-thanku-js": [
+      "component---src-pages-thanku-js-4864d72b7b59c4bd9a21.js",
+      "component---src-pages-thanku-js-4864d72b7b59c4bd9a21.js.map"
+    ],
+    "path---pijubelly": [
+      "path---pijubelly-a0e39f21c11f6a62c5ab.js",
+      "path---pijubelly-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-jokga-js": [
+      "component---src-pages-jokga-js-5077650a31df0f9e8cb5.js",
+      "component---src-pages-jokga-js-5077650a31df0f9e8cb5.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-9811e1a02d86452355bd.js",
+      "component---src-layouts-index-js-9811e1a02d86452355bd.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---thanku": [
+      "path---thanku-a0e39f21c11f6a62c5ab.js",
+      "path---thanku-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+    ],
+    "commons": [
+      "commons-2b85f5514b633472bf42.js",
+      "build-js-styles.css",
+      "commons-2b85f5514b633472bf42.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---jokga": [
+      "path---jokga-a0e39f21c11f6a62c5ab.js",
+      "path---jokga-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-pijubelly-js": [
+      "component---src-pages-pijubelly-js-66dc9aab537b43322931.js",
+      "component---src-pages-pijubelly-js-66dc9aab537b43322931.js.map"
+    ],
+    "path---yet-tuh": [
+      "path---yet-tuh-a0e39f21c11f6a62c5ab.js",
+      "path---yet-tuh-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-5626f3d3f014897c3b09.js",
+      "build-js-styles.css",
+      "app-5626f3d3f014897c3b09.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}
