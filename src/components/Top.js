@@ -13,7 +13,7 @@ const TopBackground = styled.div`
 
 const TopContent = styled.div`
     margin: 0 auto;
-    max-width: 500px;
+    max-width: 600px;
     padding: 150px 50px;
     text-align: center;
 `
